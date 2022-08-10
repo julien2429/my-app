@@ -32,10 +32,13 @@ function App() {
       </div>
       <div className='BottomBar'>
         <div className='Contact-Stanga'>
-        <img className='Icoane' src={require("./icons/icons8-mail-75.png")}/>
-        <p className='Scris'>julieniancu@gmail.com</p>
-        <img className='Icoane' src={require("./icons/icons8-phone-50.png")}/>
-        <p className='Scris' >0730667009</p>
+         
+          <img className='Icoane' src={require("./icons/icons8-mail-75.png")}/>
+          <p className='Scris'>julieniancu@gmail.com</p>
+         
+          <img className='Icoane' src={require("./icons/icons8-phone-50.png")}/>
+          <p className='Scris' >0730667009</p>
+          
         </div>
         <div id='contact' className='Contact-Dreapta'>
           <a className='Icoane' href='https://www.instagram.com/julieniancu/' target="_blank"><img  src={require("./icons/icons8-instagram-50.png")}/></a>
