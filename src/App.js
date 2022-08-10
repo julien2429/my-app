@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { links } from './links'
-import FaceBook from './icons/icons8-facebook-50.png'
+
 
 
 
