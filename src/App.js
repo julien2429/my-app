@@ -23,7 +23,6 @@ function App() {
       <div className='PozeFlex'>
         {
           links.map( link =>{ 
-          console.log(link)
           return <img className='poza' src={link} alt=''/>  
         })
         
