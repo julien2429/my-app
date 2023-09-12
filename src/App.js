@@ -12,10 +12,10 @@ function App() {
 
     <div className='Whole'>
       <div className='TopBar'>
-        <a href="#contact">
+        <a className="ButSus" href="#contact">
         <button className='TopButton' href="#contact" >Contact</button></a>
         <button className='Logo'>PhotoOPS</button>
-        <a href="#contact">
+        <a className="ButSus" href="#contact">
         <button className='TopButton' onClick="document.getElementById('contact').scrollIntoView();">Social</button></a>
 
       </div>

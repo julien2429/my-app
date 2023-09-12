@@ -57,7 +57,7 @@ button {
 .poza:hover {
   z-index: 3;
   transform: scale(1.1);
-  border-radius: 0.5rem;
+  border-radius: 0.2rem;
 }
 
 .TopButton {
@@ -147,7 +147,7 @@ a {
   text-decoration: none;
   color: black;
 }
-@media all and (max-width:500px) {
+@media all and (max-width:600px) {
 
   .Whole {
     z-index: 1;
@@ -264,5 +264,13 @@ a {
     text-decoration: none;
     color: black;
     align-self: center;
+    height: fit-content;
+    
+    
+  }
+  
+  .ButSus
+  {
+    padding:20px;
   }
 }
